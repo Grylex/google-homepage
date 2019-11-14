@@ -19,15 +19,20 @@ img {
     padding-top: 109px;
     
   }
-.search{
+.search-box{
     width: 500px;
     margin-left: auto;
     margin-right: auto;
+    
+    text-align: center;
       
       
   }
+ 
 
 .input{
+    position: relative;
+    bottom: 15px;
     height: 50px;
     width: 400px;
     border-radius: 24px;
@@ -59,6 +64,26 @@ button{
     letter-spacing: 1.5px;
     font-size: 14px;
     
+    
+}
+.search-button{
+    background-color: transparent;
+    position: relative;
+    color: black;
+    width: 150px;
+    border: transparent;
+    margin-right: 5px;
+
+}
+.search-button:hover{
+    border: solid rgba(223,225,229,1);
+    
+}
+.buttons{
+    position: relative;
+    top: 3px;
+    right: 3px;
+    width: 100%;
     
 }
 .foot{
