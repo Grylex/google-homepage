@@ -4,6 +4,13 @@ html{
 
 }
 
+.head-cont{
+    
+    border: solid black;
+    width 100%;
+
+}
+
 .center{
     display: block;
     margin-left: auto;
@@ -12,7 +19,7 @@ html{
     margin-top: 47px;
     
 }
-img {
+.logo-img {
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -28,6 +35,11 @@ img {
       
       
   }
+  .small-logo{
+      position: relative;
+      width:100px;
+      top: 20px
+  }
  
 
 .input{
@@ -40,6 +52,12 @@ img {
     font-size: 10px;
 
   }
+#ser{
+    bottom: 75px;
+    left: 25px;
+    width :600px
+    
+}
 
 input:hover{
     box-shadow: 0 1px 6px 0 rgba(32,33,36,0.28);
